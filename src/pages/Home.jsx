@@ -14,10 +14,6 @@ const Home = () => {
     setIsBackprojectOpen(prevValue => !prevValue)
   }
 
-  function handleIsMessageOpen() {
-    setIsMessageOpen(prevValue => !prevValue)
-  }
-
   if(isBackprojectOpen) {
     document.querySelector('body').style.overflowY = 'hidden'
   } else {

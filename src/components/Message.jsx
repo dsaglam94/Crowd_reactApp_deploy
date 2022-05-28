@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {TiTick} from 'react-icons/ti'
 
 const Message = ({ isMessageOpen, setIsMessageOpen, isOpen, setIsOpen }) => {

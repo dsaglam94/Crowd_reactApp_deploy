@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Plan from './Plan'
 import data from '../data'
 
-const About = ({isOpen, setIsOpen}) => {
+const About = ({setIsOpen}) => {
 
   const [plans, setPlans] = useState(data.slice(1))
 
