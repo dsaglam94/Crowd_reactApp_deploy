@@ -43,10 +43,6 @@ const Test = ({isOpen, setIsOpen, isMessageOpen, setIsMessageOpen}) => {
     setIsOpen(prevValue => !prevValue)
   }
 
-  function isLeft(val) {
-    return val > 0
-  }
-
   return (
         <div id='backproject__card' className={isOpen ? 'fixed z-10 overflow-y-scroll h-[85vh] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg p-6 md:p-8 w-[85%] max-w-[650px] mx-auto text-left space-y-6 mt-6' : 'hidden'}>
             <div className='space-y-4'>

@@ -4,7 +4,8 @@ import data from '../data'
 
 const About = ({setIsOpen}) => {
 
-  const [plans, setPlans] = useState(data.slice(1))
+  // const [plans, setPlans] = useState(data.slice(1))
+  const plans = data.slice(1)
 
   function handleCloseBackproject() {
     setIsOpen(prevValue => !prevValue)
